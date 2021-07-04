@@ -1,0 +1,8 @@
+/home/morra/src/DailyProgrammingProblem/rust/target/rls/debug/deps/dailycodingproblem-104e2410aff98662.rmeta: src/main.rs src/modules/mod.rs src/modules/first.rs src/modules/second.rs
+
+/home/morra/src/DailyProgrammingProblem/rust/target/rls/debug/deps/dailycodingproblem-104e2410aff98662.d: src/main.rs src/modules/mod.rs src/modules/first.rs src/modules/second.rs
+
+src/main.rs:
+src/modules/mod.rs:
+src/modules/first.rs:
+src/modules/second.rs:
