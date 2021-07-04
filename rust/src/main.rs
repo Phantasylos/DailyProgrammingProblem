@@ -14,6 +14,12 @@ mod tests {
         assert_eq!(modules::second::multiply_slice(&mut [1, 2, 3, 4, 5]), [120, 60, 40, 30, 24]);
     }
 
+    #[test]
+    fn test_fourth() {
+        assert_eq!(modules::fourth::find_continue(&mut [3, 4, -1, 1]), 2);
+        assert_eq!(modules::fourth::find_continue(&mut [1, 2, 0]), 3);
+    }
+
 }
 
 
