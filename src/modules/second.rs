@@ -6,7 +6,6 @@ pub fn multiply_slice(slice: &mut [i32]) -> &[i32] {
     for i in 0..slice.len() {
         new_vec.push(temp);
         temp *= slice[i];
-        println!("{}", new_vec[i]);
     }
 
     temp = 1;
@@ -14,8 +13,7 @@ pub fn multiply_slice(slice: &mut [i32]) -> &[i32] {
         new_vec[i] *= temp;
         temp *= slice[i];
         slice[i] = new_vec[i];
-        println!("{}", temp);
     }
-    
+
     slice
 }
